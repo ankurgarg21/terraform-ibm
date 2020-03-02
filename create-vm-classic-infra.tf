@@ -1,6 +1,6 @@
 resource "ibm_compute_vm_instance" "virtualserver" {
- hostname = "virtualserver02"
- domain = "Nonprodcloud"
+ hostname = "virtualserver2"
+ domain = "Non-prod-cloud.com"
  os_reference_code = "DEBIAN_8_64"
  datacenter = "sng01"
  network_speed = 10
